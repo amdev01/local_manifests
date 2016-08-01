@@ -17,9 +17,6 @@
  <!-- End awifi -->
  
  <!-- Start oneplus3 -->
-  <!-- Packages to remove -->
- <project-remove name="bionic" />
- <project-remove name="system/core" />	
 
  <!-- Device -->
  <project name="CandyDevices/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" revision="c6" />
@@ -39,5 +36,6 @@
  <!-- Other -->
  <project name="MyczkowskiAdam/bionic" path="bionic" remote="github" revision="c6" />
  <project name="MyczkowskiAdam/system_core" path="system/core" remote="github" revision="c6" />
+ <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="aospb" revision="mm6.0-caf" />
 <!-- End oneplus3 -->
 </manifest>

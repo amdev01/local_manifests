@@ -4,7 +4,7 @@
  <!-- Start v400 -->
  <project name="CandyDevices/device_lge_v400" path="device/lge/v400" remote="github" revision="c6" />
  <project name="CandyDevices/device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="c6" />
- <project name="CyanogenMod/android_kernel_lge_v4xx" path="kernel/lge/v4xx" remote="github" revision="cm-13.0" />
+ <project name="CandyDevices/android_kernel_lge_v4xx" path="kernel/lge/v4xx" remote="github" revision="c6" />
  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" 
   remote="github" revision="cm-13.0"  />
  <!-- End v400 -->

@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <!-- Begin v4xx -->
  <project name="CandyDevices/device_lge_v400" path="device/lge/v400" remote="github" revision="c7.1" />
  <project name="CandyDevices/device_lge_v410" path="device/lge/v410" remote="github" revision="c7.1" />
  <project name="CandyDevices/device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="c7.1" />
  <project name="CandyDevices/android_kernel_lge_v4xx" path="kernel/lge/v4xx" remote="github" revision="c7.1" />
  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1"  />
  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+ <!-- End v4xx -->
+ 
+ <!-- Begin huashan -->
+ <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+ <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.1" />
+ <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
+ <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-14.1" />
+ <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
+ <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.1" />
+ <project name="MyczkowskiAdam/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="c7.1" />
+ <project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="github" revision="cm-14.1" />
+ <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-14.1" />
+ <!-- End huashan -->
 </manifest>

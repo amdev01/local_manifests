@@ -10,7 +10,6 @@
  <!-- End v4xx -->
  
  <!-- Begin huashan -->
- <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.1" />
  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-14.1" />

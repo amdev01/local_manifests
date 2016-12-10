@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <project-remove name="SlimRoms/vendor_slim" path="vendor/slim" />
+ <remove-project name="SlimRoms/vendor_slim" path="vendor/slim" />
  
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="slim7.1" />
  <project name="MyczkowskiAdam/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="cm-14.1" />

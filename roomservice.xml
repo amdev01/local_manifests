@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ 
+ <remove-project name="android_build" path="build" />
+ 
+ <project name="MyczkowskiAdam/android_build" path="build" remote="github" revision="android-7.1" />
 
  <!-- Start v400 -->
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="omni7.1" />
@@ -19,4 +23,5 @@
  <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-7.0" />
  <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-7.0" />
  <project name="CyanogenMod/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="cm-14.1-caf" />
+ <project name="CyanogenMod/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="cm-14.1-caf" />
 </manifest>

@@ -4,7 +4,7 @@
  <!-- <remove-project name="android_build" path="build" />
  
  <project name="MyczkowskiAdam/android_build" path="build" remote="github" revision="android-7.1" /> -->
- <remove-project name="android_hardware_ril" path="hardware/ril" />
+ <remove-project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" />
  
  <!-- Start v400 -->
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="omni7.1" />

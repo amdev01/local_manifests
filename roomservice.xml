@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
- <!-- <remove-project name="android_build" path="build" />
- <project name="MyczkowskiAdam/android_build" path="build" remote="github" revision="android-7.1" /> -->
+ <remove-project name="android_build" path="build" />
  <remove-project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" />
  <remove-project name="android_system_sepolicy" path="system/sepolicy" />
  
  <!-- Start v400 -->
+ <project name="MyczkowskiAdam/android_build" path="build" remote="github" revision="android-7.1" />
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="omni7.1" />
  <project name="MyczkowskiAdam/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="omni7.1" />
  <project name="MyczkowskiAdam/android_kernel_lge_v4xx" path="kernel/lge/v4xx" remote="github" revision="c7.1" />

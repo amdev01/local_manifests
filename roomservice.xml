@@ -31,5 +31,5 @@
  <project name="MyczkowskiAdam/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="cm-14.1-caf" />
  
  <project name="MyczkowskiAdam/android_system_sepolicy" path="system/sepolicy" remote="github" revision="android-7.1" />
- <project name="MyczkowskiAdam/android_frameworks_av" path="frameworks/av" remote="github" revison="android-7.1" />
+ <project name="MyczkowskiAdam/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1" />
 </manifest>

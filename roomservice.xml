@@ -32,5 +32,5 @@
  
  <project name="MyczkowskiAdam/android_system_sepolicy" path="system/sepolicy" remote="github" revision="android-7.1" />
  <project name="maxwen/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1" />
- <project name="maxwen/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1" />
+ <project name="maxwen/android_frameworks_native" path="frameworks/native" remote="github" revision="android-7.1" />
 </manifest>

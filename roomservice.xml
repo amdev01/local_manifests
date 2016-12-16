@@ -33,4 +33,12 @@
  <project name="MyczkowskiAdam/android_system_sepolicy" path="system/sepolicy" remote="github" revision="android-7.1" />
  <project name="maxwen/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1" />
  <project name="maxwen/android_frameworks_native" path="frameworks/native" remote="github" revision="android-7.1" />
+ 
+ <!-- For now, won't stay here hopefully -->
+ <remove-project name="android_hardware_libhardware" path="hardware/libhardware" />
+ <remove-project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" />
+ 
+ <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="cm-14.1" />
+ <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-14.1" />
+ 
 </manifest>

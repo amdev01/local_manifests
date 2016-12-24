@@ -44,7 +44,6 @@
  <project name="MyczkowskiAdam/android_build" path="build" remote="github" revision="android-7.1">
    <copyfile src="core/root.mk" dest="Makefile" />
  </project>
- <project name="MyczkowskiAdam/android_frameworks_base" path="frameworks/base" remote="github" revision="android-7.1" />
  <project name="maxwen/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1" />
  <project name="maxwen/android_frameworks_native" path="frameworks/native" remote="github" revision="android-7.1" />
  

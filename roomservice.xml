@@ -3,12 +3,10 @@
  
  <!-- Start projects to remove -->
  <remove-project name="android_build" path="build" />
- <remove-project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" />
  <remove-project name="android_system_sepolicy" path="system/sepolicy" />
  <remove-project name="android_frameworks_av" path="frameworks/av" />
  <remove-project name="android_frameworks_native" path="frameworks/native" />
  <remove-project name="android_hardware_libhardware" path="hardware/libhardware" />
- <remove-project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" />
  <!-- End projects to remove -->
  
  <!-- Start device specific -->
@@ -29,10 +27,7 @@
  <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-7.0" />
  <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-7.0" />
  <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-7.0" />
- <project name="MyczkowskiAdam/cm-android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="cm-14.1-caf" />
- <project name="MyczkowskiAdam/omnirom-android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="android-7.1" />
  <project name="MyczkowskiAdam/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-7.1" />
- <project name="MyczkowskiAdam/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="android-7.1" />
  <!-- End hardware -->
  
  <!-- Start qcom -->

@@ -5,8 +5,6 @@
  <remove-project name="android_build" path="build" />
  <remove-project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" />
  <remove-project name="android_system_sepolicy" path="system/sepolicy" />
- <remove-project name="android_frameworks_av" path="frameworks/av" />
- <remove-project name="android_frameworks_native" path="frameworks/native" />
  <remove-project name="android_hardware_libhardware" path="hardware/libhardware" />
  <remove-project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" />
  <!-- End projects to remove -->
@@ -21,10 +19,6 @@
  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
  <!-- End device specific -->
  
- <!-- Start additional apps -->
- <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="omnirom" revision="android-7.0" />
- <!-- End additional apps -->
- 
  <!-- Start hardware -->
  <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-7.0" />
  <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-7.0" />
@@ -37,7 +31,7 @@
  
  <!-- Start qcom -->
  <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-7.1" />
- <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+ <project name="MyczkowskiAdam/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-7.1" />
  <project name="CyanogenMod/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="github" revision="cm-14.1" />
  <project name="CyanogenMod/android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="github" revision="cm-14.1" />
  <!-- End qcom -->
@@ -46,9 +40,6 @@
  <project name="MyczkowskiAdam/android_build" path="build" remote="github" revision="android-7.1">
    <copyfile src="core/root.mk" dest="Makefile" />
  </project>
- <project name="maxwen/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1" />
- <project name="maxwen/android_frameworks_native" path="frameworks/native" remote="github" revision="android-7.1" />
- 
  <project name="MyczkowskiAdam/android_system_sepolicy" path="system/sepolicy" remote="github" revision="android-7.1" />
  <!-- End Other -->
  

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <remove-project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
+ <remove-project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
  
  <!-- Start device specific -->
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="citrus-caf" />
@@ -13,4 +14,5 @@
  
  <!-- Hardware -->
  <project name="Citrus-CAF/hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="n-8952" />
+ <project name="Citrus-CAF/hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="n-8952" />
 </manifest>

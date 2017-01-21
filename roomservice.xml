@@ -3,6 +3,8 @@
  <remove-project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
  <remove-project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
  <remove-project name="packages_services_Telecomm" path="packages/services/Telecomm"/>
+ <remove-project name="system_sepolicy" path="system/sepolicy" />
+ <remove-project name="frameworks_av" path="frameworks/av" />
  
  <!-- Start device specific -->
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="citrus-caf" />
@@ -17,4 +19,6 @@
  <project name="Citrus-CAF/hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="n-8974" />
  <project name="Citrus-CAF/hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="n-8974" />
  <project name="MyczkowskiAdam/packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="n" />
+ <project name="MyczkowskiAdam/system_sepolicy" path="system/sepolicy" remote="github" revision="n" />
+ <project name="MyczkowskiAdam/frameworks_av" path="frameworks/av" remote="github" revision="n" />
 </manifest>

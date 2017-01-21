@@ -2,7 +2,7 @@
 <manifest>
  <remove-project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
  <remove-project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
- <remove-project name="Citrus-CAF/packages_services_Telecomm" path="packages/services/Telecomm"/>
+ <remove-project name="packages_services_Telecomm" path="packages/services/Telecomm"/>
  
  <!-- Start device specific -->
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="citrus-caf" />

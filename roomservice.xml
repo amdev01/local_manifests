@@ -14,5 +14,5 @@
  
  <!-- Hardware -->
  <project name="Citrus-CAF/hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="n-8952" />
- <project name="Citrus-CAF/hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="n-8952" />
+ <project name="Citrus-CAF/hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="n-8974" />
 </manifest>

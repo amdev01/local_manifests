@@ -5,6 +5,7 @@
  <remove-project name="android_build" path="build" />
  <remove-project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" />
  <remove-project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" />
+ <remove-project name="android_system_core" path="system/core" />
  <!-- End projects to remove -->
  
  <!-- Start device specific -->
@@ -33,9 +34,10 @@
  <!-- End qcom -->
  
  <!-- Start Other -->
- <project name="MyczkowskiAdam/android_build" path="build" remote="github" revision="android-7.1">
+ <project name="MyczkowskiAdam/android_build" path="build" remote="github" revision="android-7.1-lge">
    <copyfile src="core/root.mk" dest="Makefile" />
  </project>
+ <project name="MyczkowskiAdam/android_system_core" path="system/core" remote="github" revision="android-7.1" />
  <!-- End Other -->
  
 </manifest>

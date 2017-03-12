@@ -30,7 +30,7 @@
  <!-- Start qcom -->
  <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-7.1" />
  <project name="LineageOS/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="github" revision="cm-14.1" />
- <project name="LineageOS/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-14.1" />
+ <project name="MyczkowskiAdam/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-14.1" />
  <!-- End qcom -->
  
  <!-- Start Other -->

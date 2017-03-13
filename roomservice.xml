@@ -38,6 +38,7 @@
    <copyfile src="core/root.mk" dest="Makefile" />
  </project>
  <project name="MyczkowskiAdam/android_system_core" path="system/core" remote="github" revision="android-7.1" />
+ <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="android-7.1" />
  <!-- End Other -->
  
 </manifest>

@@ -3,7 +3,6 @@
 
  <!-- Start v4xx -->
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="cm-14.1" />
- <project name="MyczkowskiAdam/android_device_lge_v410" path="device/lge/v410" remote="github" revision="cm-14.1" />
  <project name="MyczkowskiAdam/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="cm-14.1" />
  <project name="MyczkowskiAdam/android_kernel_lge_v4xx" path="kernel/lge/v4xx" remote="github" revision="c7" />
  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1"  />

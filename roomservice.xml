@@ -5,6 +5,8 @@
  <project name="mikeNG/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="lineage-15.0-caf" />
  <remove-project name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" />
  <project name="mikeNG/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="github" revision="lineage-15.0-caf" />
+ <remove-project name="platform/hardware/libhardware_legacy" />
+ <project name="LineageOS/hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="lineage-15.0" />
  
  <!-- Start v4xx -->
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="lineage-15.0" />

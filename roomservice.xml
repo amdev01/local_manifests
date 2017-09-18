@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <remove-project name="LineageOS/android_system_sepolicy" />
+ <remove-project name="platform/system/hardware/interfaces" />
+ <project name="MyczkowskiAdam/android_system_hardware_interfaces" path="system/hardware/interfaces" remote="github" revision="lineage-15.0" />
+ <project name="MyczkowskiAdam/android_system_sepolicy" path="system/sepolicy" remote="github" revision="lineage-15.0" />
+ 
  <!-- Start v4xx -->
  <project name="MyczkowskiAdam/android_device_lge_v400" path="device/lge/v400" remote="github" revision="lineage-15.0" />
- <project name="MyczkowskiAdam/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="lineage-15.0" />
+ <project name="MyczkowskiAdam/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="lineage-15.0-sepolicy" />
  <project name="MyczkowskiAdam/android_kernel_lge_v4xx" path="kernel/lge/v4xx" remote="github" revision="cakekernel-o" />
  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-15.0" />
  <project name="MyczkowskiAdam/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-15.0" />

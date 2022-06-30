@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Start v4xx -->
- <project name="amdev01/android_device_lge_v400" path="device/lge/v400" remote="github" revision="lineage-15.0" />
- <project name="amdev01/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="lineage-15.0" />
- <project name="amdev01/android_kernel_lge_v4xx-cakekernel" path="kernel/lge/v4xx" remote="github" revision="cakekernel-o" />
- <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-15.1" />
- <project name="amdev01/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-15.0" />
- <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
- <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-15.1" />
- <!-- End v4xx -->
+ <!-- build -->
+ <remove-project name="AOSPA/android_build" />
+ <project path="build/make" name="amdev01/android_buildAOSPA" remote="github" branch="sapphire" >
+   <copyfile src="core/root.mk" dest="Makefile" />
+   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+   <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+   <linkfile src="core" dest="build/core" />
+   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+   <linkfile src="target" dest="build/target" />
+   <linkfile src="tools" dest="build/tools" />
+ </project>
+ <!-- vendor -->
+ <remove-project name="AOSPA/android_vendor_aospa " />
+ <project path="build/make" name="amdev01/android_vendor_aospa" remote="github" branch="sapphire" >
+  <linkfile src="build.sh" dest="rom-build.sh" />
+ </project>
+ <!-- kernel scripts -->
+ <remove-project name="AOSPA/android_kernel_build" />
+  <project path="device/qcom/kernelscripts" name="amdev01/android_kernel_build" remote="github" branch="sapphire" >
+    <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
+  </project>
 </manifest>

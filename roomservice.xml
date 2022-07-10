@@ -3,7 +3,7 @@
  <!-- Start v4xx -->
  <project name="amdev01/android_device_lge_v400" path="device/lge/v400" remote="github" revision="lineage-15.0" />
  <project name="amdev01/android_device_lge_v410" path="device/lge/v410" remote="github" revision="lineage-15.0" />
- <project name="amdev01/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="lineage-15.1" />
+ <project name="amdev01/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="lineage-15.1-sensors-multihal" />
  <project name="amdev01/android_kernel_lge_v4xx-cakekernel" path="kernel/lge/v4xx" remote="github" revision="cakekernel-o" />
  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-15.1" />
  <project name="amdev01/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-15.0" />

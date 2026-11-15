@@ -8,10 +8,8 @@
  <project name="amdev01/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="cm-14.1-twrp" />
  <project name="amdev01/android_kernel_lge_v4xx-cakekernel" path="kernel/lge/v4xx" remote="github" revision="cakekernel" />
  <project name="amdev01/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
- <!-- SoftAP wifi/netd forks belong on cm-14.1 (lineage) only — TWRP minimal
-      manifest has no LineageOS android_frameworks_opt_net_wifi / android_system_netd
-      to remove-project, so those entries break repo sync here. -->
+ <!-- SoftAP wifi/netd forks: cm-14.1 (lineage) only.
+      Do not re-add LineageOS boringssl-compat / qcom-common here — TWRP's
+      default manifest already has those paths (duplicate path → sync fail). -->
  <!-- End v4xx -->
- <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1"  />
- <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
 </manifest>

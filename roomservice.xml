@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Start v4xx -->
- <project name="amdev01/android_device_lge_v400" path="device/lge/v400" remote="github" revision="dev/cm-14.1" />
+ <!-- v400/v480 sudden-death log-capture HITL (archive/v400-deadboot-logging) -->
+ <project name="amdev01/android_device_lge_v400" path="device/lge/v400" remote="github" revision="archive/v400-deadboot-logging" />
+ <project name="amdev01/android_device_lge_v480" path="device/lge/v480" remote="github" revision="archive/v400-deadboot-logging" />
  <project name="amdev01/android_device_lge_v410" path="device/lge/v410" remote="github" revision="dev/cm-14.1" />
- <project name="amdev01/android_device_lge_v480" path="device/lge/v480" remote="github" revision="dev/cm-14.1" />
  <project name="amdev01/android_device_lge_v490" path="device/lge/v490" remote="github" revision="dev/cm-14.1" />
- <project name="amdev01/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="dev/cm-14.1" />
- <project name="amdev01/android_kernel_lge_v4xx-cakekernel" path="kernel/lge/v4xx" remote="github" revision="dev/cakekernel7" />
+ <project name="amdev01/android_device_lge_v4xx-common" path="device/lge/v4xx-common" remote="github" revision="archive/v400-deadboot-logging" />
+ <project name="amdev01/android_kernel_lge_v4xx-cakekernel" path="kernel/lge/v4xx" remote="github" revision="archive/v400-deadboot-logging" />
  <project name="amdev01/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="dev/cm-14.1" />
- <!-- SoftAP wifi/netd forks omitted on TWRP — default manifest path conflicts. -->
- <!-- End v4xx -->
+ <!-- SoftAP forks omitted — reduce moving parts during death HITL -->
+ <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1"  />
+ <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
 </manifest>
